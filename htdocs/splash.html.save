@@ -3,14 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
-    
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet"> 
-    <link rel="stylesheet" href="css/custum.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,16 +19,12 @@
     <![endif]-->
   </head>
   <body>
-	  <div class="container">
-	  	
-	  
-    <h1>Free Wifi</h1>
-    <h2>Omdat we graag naar je mening luisteren, stellen we je één vraag voor we je op het internet loslaten.</h2>
-    <a href="question_multi.html" class="btn btn-success">Ga door </a>
-    <a href="noacces_redirect.html" class="btn btn-danger">Nee bedankt </a>
-    <a href="$authtarget" class="btn btn-danger">Doorgaan</a>
-    
-	</div>
+    <h1>Hey daar!</h1>
+    <form action="$authaction" method="" accept-charset="utf-8">
+    	  <button type="submit" class="btn btn-primary">Ik ben hier voor het eerst</button>
+    	  <button type="submit" class="btn btn-primary">Ik kwam hier al vaker</button>
+    </form>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
