@@ -1,34 +1,32 @@
-<html>
-<head>
-	<title>$gatewayname Entry</title>
-	<meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
-</head>
-<body bgcolor="#DDDDDD" text="#000000">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
 
-<table border="0" cellpadding="2" cellspacing="0" width="100%">
-<tr>
-	<td align="center"><h2>$gatewayname</h2></td>
-</tr>
-<tr>
-	<td align="center" height="120">
-	<!--
-		A client is authenticated by requesting the page $authtarget.
-		So, href to it here, with an img or link text the user can click on.
-		Also, note that any images you reference must reside in the
-		subdirectory that is the value of $imagesdir (default: "images").
-	-->
-	<a href="$authtarget">
-	<img src="$imagesdir/splash.jpg" width="71" height="49" border="0"
-		alt="Click to enter" title="Click to enter">
-	</a>
-<form method='GET' action='$authaction'>
-  <input type='hidden' name='tok' value='$tok'>
-  <input type='hidden' name='redir' value='$redir'>
-  <input type='submit' value='Click Here to Enter'>
-</form
-	</td>
-</tr>
-</table>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-</body>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <h1>Hey daar!</h1>
+    <form action="$authaction" method="" accept-charset="utf-8">
+    	  <button type="submit" class="btn btn-primary">Ik ben hier voor het eerst</button>
+    	  <button type="submit" class="btn btn-primary">Ik kwam hier al vaker</button>
+    </form>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
